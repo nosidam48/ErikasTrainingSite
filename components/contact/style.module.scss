@@ -1,0 +1,55 @@
+.formContainer {
+  margin: 0 20px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .label {
+      margin: 10px 0;
+    }
+
+    .label:after {
+      content: " *"
+    }
+  
+    .error {
+      color: red;
+      margin: 10px 0;
+      visibility: visible;
+    }
+
+    .field {
+      height: 25px;
+      font-size: 14px;
+      padding-left: 10px;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+  
+    .textArea {
+      height: 200px;
+      padding-left: 10px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+
+    .remainingCharacters {
+      font-size: 14px;
+      color: gray;
+    }
+
+    button {
+      width: 20%;
+      padding: 5px;
+      background-color: blue;
+      color: white;
+      margin: 10px 0 20px;
+    }
+  }
+}

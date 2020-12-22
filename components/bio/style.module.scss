@@ -1,0 +1,38 @@
+.bioContainer {
+  background-color: lightgray;
+  padding: 30px 20px;
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .bio {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    margin: 0 auto;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media(max-width: 850px) {
+      grid-template-columns: 100%;
+      justify-content: center;
+
+      img {
+        width: 50%;
+        min-width: 300px;
+        margin: 20px auto;
+        border: 2px solid black;
+      }
+    }
+
+    p {
+      margin: 0 20px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  margin: 30px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/erika-bonzo.jpg");
+  height: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  .text {
+    
+    color: white;
+    font-weight: bold;
+  }
+
+  .headline {
+    font-size: 40px;
+  }
+
+  .subHeadline {
+    font-size: 24px;
+  }
+}
