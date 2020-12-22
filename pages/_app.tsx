@@ -1,4 +1,5 @@
-import { AppProps } from 'next/app' 
+import { AppProps } from 'next/app'
+import { NextRouter, useRouter } from "next/router" 
 import Head from 'next/head' 
 import Footer from '../components/footer'
 import MobileNavBar from '../components/mobileNavBar'
@@ -6,25 +7,22 @@ import NavBar from '../components/navBar'
 import '../styles.scss'
 
 const App = ({ Component, pageProps }: AppProps) => {
+  const router: NextRouter = useRouter();
+  const { pathname } = router;
+  const pageTitle: string = pathname.charAt(1).toUpperCase() + pathname.slice(2);
   return (
     <>
     <Head>
-      <html lang="en" />
-      <title> Erika Abrahamson Dog Training </title>
+      <title> Erika Abrahamson Dog Training - {pageTitle || "Home"} </title>
       <meta 
         content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no"
         name="viewport"
-        key="content"
-      >
-      </meta>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> 
+      ></meta>
     </Head>
-    <body>
     <MobileNavBar />
     <NavBar />
     <Component {...pageProps} />
     <Footer />
-    </body>
     </>
   )
 }

@@ -1,9 +1,5 @@
 import Home from '../pages/home'
 
- const Index = () => (
-    <div className="app">
-      <Home />
-    </div>
-  )
+ const Index = () => (<Home />)
 
 export default Index;
