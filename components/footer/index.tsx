@@ -13,8 +13,8 @@ const Footer = () => (
       <Link href="/services">
         <a>Services</a>
       </Link>
-      <Link href="/appointments">
-        <a>Book now</a>
+      <Link href="/contact">
+        <a>Contact</a>
       </Link>
     </div>
     <div className={style.socialLinks}>

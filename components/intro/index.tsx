@@ -12,8 +12,8 @@ const Intro = () => (
       <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</li>
       <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</li>
     </ul>
-    <Link href="/appointments">
-      <button>Book Now!</button>
+    <Link href="/contact">
+      <button>Contact Erika Now!</button>
     </Link>
   </div>
 )

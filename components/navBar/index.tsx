@@ -15,9 +15,6 @@ const NavBar = () => (
     <Link href="/contact">
       <a>Contact</a>
     </Link>
-    <Link href="/appointments">
-      <a>Book an appointment</a>
-    </Link>
   </nav>
 )
 

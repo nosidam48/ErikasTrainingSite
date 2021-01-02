@@ -12,8 +12,8 @@ const Services = () => (
         <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
         <li>Suspendisse nec turpis libero. In in ultricies.</li>  
       </ul>
-      <Link href="/appointments">
-      <button className={style.button1}>Book a private lesson now!</button>
+      <Link href="/contact">
+      <button className={style.button1}>Contact Erika Now!</button>
       </Link>
     </div>
     <div className={style.serviceItem}>
@@ -24,8 +24,8 @@ const Services = () => (
         <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
         <li>Suspendisse nec turpis libero. In in ultricies.</li>  
       </ul>
-      <Link href="/appointments">
-        <button className={style.button2}>Book a remote lesson now!</button>
+      <Link href="/contact">
+        <button className={style.button2}>Contact Erika Now!</button>
       </Link>
     </div>
     <div className={style.serviceItem}>
@@ -36,8 +36,8 @@ const Services = () => (
         <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
         <li>Suspendisse nec turpis libero. In in ultricies.</li>  
       </ul>
-      <Link href="/appointments">
-        <button className={style.button3}>Book a Group Lesson Now!</button>
+      <Link href="/contact">
+        <button className={style.button3}>Contact Erika Now!</button>
       </Link>
     </div>
     <div className={style.serviceItem}>
@@ -48,8 +48,8 @@ const Services = () => (
         <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
         <li>Suspendisse nec turpis libero. In in ultricies.</li>  
       </ul>
-      <Link href="/appointments">
-        <button className={style.button4}>Book Puppy Fun Now!</button>
+      <Link href="/contact">
+        <button className={style.button4}>Contact Erika Now!</button>
       </Link>
     </div>
   </div>
