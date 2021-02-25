@@ -1,43 +1,42 @@
 .qualifications {
+  margin: 60px 0 50px;
   text-align: center;
-  background-color: #f4f4f4;
-  padding: 20px 0 40px;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 750px) {
+    flex-direction: column;
+    align-items: center;
+    .qualList:not(:last-child) {
+      border-bottom: 1px solid #634e4e;
+    }
+  }
 
-  h2 {
-    margin-bottom: 30px;
+  img {
+    margin: 0 auto;
+  }
+
+  .imageWrapper {
+    height: 91px;
+    display: flex;
+    align-items: center;
   }
 
   .qualList {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    flex-direction: column;
+    margin: 0 25px;
+    width: 230px;
+    @media (max-width: 750px) {
+      padding-top: 10px;
+      .qualList:not(:last-child) {
+        border-bottom: 1px solid #634e4e;
+      }
+    }
 
-    @media(max-width: 750px) {
-      flex-direction: column;
-      align-items: center;
+    p {
+      font-size: 17px;
+      letter-spacing: 0.045em;
     }
   }
-
-  .qualItem {
-    display: flex;
-    align-items: center;
-    margin: 0 40px;
-    padding: 5px;
-    width: 150px;
-    min-width: 150px;
-    min-height: 150px;
-    height: 150px;
-    background-color: gray;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
-    border-radius: 50%;
-
-    @media(max-width: 750px) {
-      margin: 40px 0;
-    }
-  }
-
 }

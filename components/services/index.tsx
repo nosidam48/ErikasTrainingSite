@@ -1,58 +1,51 @@
-import Link from "next/link";
-import style from "./style.module.scss";
+import Link from 'next/link';
+import style from './style.module.scss';
 
 const Services = () => (
   <div className={style.services}>
-    <h1>Current Available Services</h1>
     <div className={style.serviceItem}>
-      <h3>Private In Person Lessons</h3>
-      <img src="/images/in-person.jpeg" />
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
-        <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
-        <li>Suspendisse nec turpis libero. In in ultricies.</li>  
-      </ul>
+      <h3>Option One</h3>
+      <img src="/images/dogBowl.png" width="177" height="134" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Nam
+        malesuada sodales magna ac consequat. Suspendisse nec turpis libero. In
+        in ultricies.
+      </p>
       <Link href="/contact">
-      <button className={style.button1}>Contact Erika Now!</button>
+        <button className={style.button1}>Book Now!</button>
       </Link>
     </div>
     <div className={style.serviceItem}>
-      <h3>Private Remote Lessons</h3>
-      <img src="/images/zoom-dog.jpeg" />
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
-        <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
-        <li>Suspendisse nec turpis libero. In in ultricies.</li>  
-      </ul>
+      <h3>Option Two</h3>
+      <img src="/images/dogFace.png" width="175" height="145" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Nam
+        malesuada sodales magna ac consequat. Suspendisse nec turpis libero. In
+        in ultricies.
+      </p>
       <Link href="/contact">
-        <button className={style.button2}>Contact Erika Now!</button>
+        <button className={style.button2}>Book Now!</button>
       </Link>
     </div>
     <div className={style.serviceItem}>
-      <h3>Group Lessons</h3>
-      <img src="/images/group-dogs.jpeg" />
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
-        <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
-        <li>Suspendisse nec turpis libero. In in ultricies.</li>  
-      </ul>
+      <h3>Option Three</h3>
+      <img src="/images/pawHouse.png" width="136" height="154" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Nam
+        malesuada sodales magna ac consequat. Suspendisse nec turpis libero. In
+        in ultricies.
+      </p>
       <Link href="/contact">
-        <button className={style.button3}>Contact Erika Now!</button>
-      </Link>
-    </div>
-    <div className={style.serviceItem}>
-      <h3>Puppy Fun</h3>
-      <img src="/images/puppies.jpeg" />
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
-        <li>Vestibulum venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam malesuada sodales magna ac consequat.</li>  
-        <li>Suspendisse nec turpis libero. In in ultricies.</li>  
-      </ul>
-      <Link href="/contact">
-        <button className={style.button4}>Contact Erika Now!</button>
+        <button className={style.button3}>Book Now!</button>
       </Link>
     </div>
   </div>
-)
+);
 
 export default Services;

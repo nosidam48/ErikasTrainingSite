@@ -1,26 +1,42 @@
 .banner {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  max-width: 960px;
-  margin: 30px auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/erika-bonzo.jpg");
-  height: 230px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/dogAtPlay.jpeg');
+  height: 633px;
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
+  background-size: cover;
+  text-align: left;
+  font-weight: bold;
 
   .text {
-    
-    color: white;
-    font-weight: bold;
+    color: #fdf6ee;
+    margin-left: 100px;
+    @media (max-width: 500px) {
+      margin: 0 20px;
+    }
   }
 
   .headline {
-    font-size: 40px;
+    font-size: 48px;
+    line-height: 64px;
+    @media (max-width: 500px) {
+      font-size: 30px;
+    }
   }
 
-  .subHeadline {
-    font-size: 24px;
+  .button {
+    width: 138px;
+    height: 48px;
+    background-color: #ec6562;
+    color: #fdf6ee;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
   }
 }

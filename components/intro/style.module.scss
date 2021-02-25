@@ -1,20 +1,37 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  color: #fdf6ee;
+  background-color: hsl(0, 12%, 35%);
+  text-align: center;
+  padding: 50px 15px 40px;
 
-.intro{
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto 30px;
-    padding: 0 20px;
+  h2 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 0.045em;
+    font-style: normal;
+    margin: 10px 0 20px;
+  }
 
-    button {
-      width: 30%;
-      margin: 0 auto;
-      padding: 10px;
-      border-radius: 15%;
-      background-color: blue;
-      font-size: 18px;
-      color: white;
-      cursor: pointer;
-      margin-top: 20px;
-    }
+  p {
+    max-width: 620px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+  }
+
+  button {
+    width: 138px;
+    height: 48px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 2px solid #fdf6ee;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #634e4e;
+    color: #fdf6ee;
+  }
 }

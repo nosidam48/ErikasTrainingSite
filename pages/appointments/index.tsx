@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Calendly from "../../components/appointments";
+import Head from 'next/head';
+import Calendly from '../../components/appointments';
 
 const Appointments = () => (
-    <>
+  <>
     <Head>
-    <meta
-      name="Description"
-      content="Welcome to Erika Abrahamson's dog training page.">
-    </meta>  
-  </Head>
-  <Calendly />
+      <meta
+        name="Description"
+        content="Ready to book an appointment. Fill out this short contact form and Erika will get back to you as soon as possible with possible appointments and more information"
+      ></meta>
+    </Head>
+    <Calendly />
   </>
 );
 

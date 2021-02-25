@@ -1,12 +1,18 @@
-import style from "./style.module.scss";
+import Link from 'next/link';
+import style from './style.module.scss';
 
 const Banner = () => (
   <div className={style.banner}>
     <div className={style.text}>
-    <h1 className={style.headline}>Welcome to Erika's Dog Training</h1>
-    <p className={style.subHeadline}>Training dogs in the Seattle area since 2016</p>
+      <h1 className={style.headline}>
+        Dog Training and <br />
+        Behavior Modification
+      </h1>
+      <Link href="/services">
+        <button className={style.button}>Learn More</button>
+      </Link>
     </div>
   </div>
-)
+);
 
 export default Banner;
