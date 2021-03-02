@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import style from './style.module.scss';
 
 const Bio = () => (
@@ -18,7 +19,15 @@ const Bio = () => (
           and anything else you and your puppy may need.
         </p>
       </div>
-      <img src="images/erika-bonzo.jpg" width="416" height="426" />
+      <div className={style.bioImage}>
+        <Image
+          alt="Erika with her dog Garbanzo"
+          src="/images/erika-bonzo.jpg"
+          width="426"
+          height="426"
+          priority
+        />
+      </div>
     </div>
   </div>
 );

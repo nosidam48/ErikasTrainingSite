@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import * as emailjs from 'emailjs-com';
 import * as Yup from 'yup';
 import { Field, Form, Formik } from 'formik';
@@ -37,7 +38,12 @@ const Basic = () => {
       {success ? (
         <div className={style.success}>
           <h2>Thank you for choosing</h2>
-          <img src="/images/socialIcons/fb.svg" width="240" height="228" />
+          <Image
+            src="/images/makeFetchHappen.png"
+            width="1000"
+            height="955"
+            alt="Make Fetch Happen logo"
+          />
           <h2>We will be in contact to schedule an appointment</h2>
         </div>
       ) : (

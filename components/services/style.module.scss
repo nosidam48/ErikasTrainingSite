@@ -15,12 +15,14 @@
     margin-top: 20px;
   }
 
-  img {
+  .serviceImage {
     display: block;
     margin: 0 auto;
+    img {
     height: 100px;
     width: auto;
     margin-bottom: 20px;
+    }
   }
 
   .serviceItem {

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import classnames from 'classnames';
@@ -9,14 +10,17 @@ const MobileNavBar = () => {
   const toggleOpen = () => setIsOpen(!isOpen);
   return (
     <nav className={style.mobileNavigation}>
-      <Link href="/">
-        <img
-          className={style.logo}
-          src="images/makeFetchHappen.png"
-          width="1000"
-          height="955"
-        />
-      </Link>
+      <div className={style.logo}>
+        <Link href="/">
+          <Image
+            src="/images/makeFetchHappen.png"
+            width="1000"
+            height="955"
+            alt="Make Fetch Happen - Navigate to Home Page"
+            priority
+          />
+        </Link>
+      </div>
       {isOpen && (
         <div className={style.mobileNavList}>
           <Link href="/">

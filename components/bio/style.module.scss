@@ -10,6 +10,10 @@
   .bio {
     display: flex;
     margin: 60px 100px 100px;
+    .bioImage {
+      min-width: 426px;
+      height: auto;
+    }
 
     @media (max-width: 1024px) {
       flex-direction: column-reverse;
@@ -19,12 +23,14 @@
         margin-top: 25px;
         line-height: 50px;
       }
-      img {
+      .bioImage {
         margin: 20px auto;
-        border: 2px solid black;
         width: 50%;
         height: auto;
         min-width: 250px;
+        div {
+          border: 2px solid black;
+        }
       }
     }
 

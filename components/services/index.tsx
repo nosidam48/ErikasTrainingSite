@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import style from './style.module.scss';
 
@@ -5,7 +6,16 @@ const Services = () => (
   <div className={style.services}>
     <div className={style.serviceItem}>
       <h3>Option One</h3>
-      <img src="/images/dogBowl.png" width="177" height="134" />
+      <div className={style.serviceImage}>
+        <Image
+          src="/images/dogBowl.png"
+          width="177"
+          height="134"
+          priority
+          className={style.serviceImage}
+          alt=""
+        />
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad
@@ -19,7 +29,15 @@ const Services = () => (
     </div>
     <div className={style.serviceItem}>
       <h3>Option Two</h3>
-      <img src="/images/dogFace.png" width="175" height="145" />
+      <div className={style.serviceImage}>
+        <Image
+          src="/images/dogFace.png"
+          width="175"
+          height="145"
+          priority
+          alt=""
+        />
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad
@@ -33,7 +51,16 @@ const Services = () => (
     </div>
     <div className={style.serviceItem}>
       <h3>Option Three</h3>
-      <img src="/images/pawHouse.png" width="136" height="154" />
+      <div className={style.serviceImage}>
+        <Image
+          src="/images/pawHouse.png"
+          width="136"
+          height="154"
+          priority
+          className={style.serviceImage}
+          alt=""
+        />
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         venenatis finibus lorem non auctor. Class aptent taciti sociosqu ad

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import style from './style.module.scss';
 
@@ -17,13 +18,14 @@ const NavBar = ({ pathname }: NavBarProps) => {
 
   return (
     <nav className={style.navigation}>
-      <div>
+      <div className={style.logo}>
         <Link href="/">
-          <img
-            className={style.logo}
-            src="images/makeFetchHappen.png"
+          <Image
+            src="/images/makeFetchHappen.png"
             width="1000"
             height="955"
+            alt="Make Fetch Happen Logo - Navigate to Home"
+            priority
           />
         </Link>
       </div>
@@ -35,15 +37,6 @@ const NavBar = ({ pathname }: NavBarProps) => {
             </a>
           </Link>
         ))}
-        {/* <Link href="/about">
-        <a>About</a>
-      </Link>
-      <Link href="/services">
-        <a>Training Services</a>
-      </Link>
-      <Link href="/contact">
-        <a>Contact</a>
-      </Link> */}
       </div>
     </nav>
   );

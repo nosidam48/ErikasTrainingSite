@@ -6,7 +6,7 @@ const Contact = () => (
     <Head>
       <meta
         name="Description"
-        content="Ready to book an dog training appointment with Erika in the greater Seattle area? Fill out this short contact form and Erika will get back to you as soon as possible with possible appointments and more information"
+        content="Ready to book a dog training appointment with Erika in the greater Seattle area? Contact Erika for more information and possible appointment times."
       ></meta>
     </Head>
     <Basic />
