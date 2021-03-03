@@ -9,6 +9,7 @@ const Banner = () => (
         layout="fill"
         src="/images/dogAtPlay.jpeg"
         objectFit="cover"
+        alt="Dog at play"
         priority
       />
     </div>

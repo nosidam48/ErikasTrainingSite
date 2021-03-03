@@ -218,6 +218,7 @@ const Basic = () => {
                       id="dogAge"
                       name="dogAge"
                       className={style.dogAge}
+                      aria-label="Dog's age"
                     />
                     <div
                       className={classnames(

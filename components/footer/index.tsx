@@ -4,7 +4,7 @@ const Footer = () => (
   <div className={style.footer}>
     <div className={style.socialLinks}>
       <a
-        href="https:/www.facebook.com/erika"
+        href="https://www.facebook.com/erika"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -16,7 +16,7 @@ const Footer = () => (
         />
       </a>
       <a
-        href="https:/www.instagram.com/erika"
+        href="https://www.instagram.com/erika"
         target="_blank"
         rel="noopener noreferrer"
       >
