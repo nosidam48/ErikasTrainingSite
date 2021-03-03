@@ -1,8 +1,17 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import style from './style.module.scss';
 
 const Banner = () => (
   <div className={style.banner}>
+    <div className={style.imageWrapper}>
+      <Image
+        layout="fill"
+        src="/images/dogAtPlay.jpeg"
+        objectFit="cover"
+        priority
+      />
+    </div>
     <div className={style.text}>
       <h1 className={style.headline}>
         Dog Training and <br />

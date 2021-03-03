@@ -1,21 +1,19 @@
 .banner {
   display: flex;
+  position: relative;
   justify-content: left;
   align-items: center;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/images/dogAtPlay.jpeg');
   height: 633px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: left;
   font-weight: bold;
 
+  .imageWrapper {
+    z-index: -1;
+  }
   .text {
     color: #fdf6ee;
     margin-left: 100px;
-    @media (max-width: 500px) {
+    @media (max-width: 650px) {
       margin: 0 20px;
     }
   }
@@ -23,7 +21,7 @@
   .headline {
     font-size: 48px;
     line-height: 64px;
-    @media (max-width: 500px) {
+    @media (max-width: 650px) {
       font-size: 30px;
     }
   }

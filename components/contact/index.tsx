@@ -38,12 +38,14 @@ const Basic = () => {
       {success ? (
         <div className={style.success}>
           <h2>Thank you for choosing</h2>
-          <Image
-            src="/images/makeFetchHappen.png"
-            width="1000"
-            height="955"
-            alt="Make Fetch Happen logo"
-          />
+          <div className={style.imageWrapper}>
+            <Image
+              src="/images/logo_inverted.png"
+              width="1000"
+              height="955"
+              alt="Make Fetch Happen logo"
+            />
+          </div>
           <h2>We will be in contact to schedule an appointment</h2>
         </div>
       ) : (
@@ -163,7 +165,12 @@ const Basic = () => {
                 <label className={style.label} htmlFor="service">
                   Training Services
                 </label>
-                <Field as="select" name="service" className={style.field}>
+                <Field
+                  id="service"
+                  as="select"
+                  name="service"
+                  className={style.field}
+                >
                   <option value="red">Red</option>
                   <option value="green">Green</option>
                   <option value="blue">Blue</option>
