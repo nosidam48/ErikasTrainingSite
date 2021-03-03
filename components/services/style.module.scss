@@ -18,11 +18,13 @@
   .serviceImage {
     display: block;
     margin: 0 auto;
-    img {
-    height: 100px;
-    width: auto;
-    margin-bottom: 20px;
-    }
+    max-width: 100px;
+  }
+
+  .serviceImageLarge {
+    display: block;
+    margin: 0 auto;
+    max-width: 70px;
   }
 
   .serviceItem {

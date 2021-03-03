@@ -107,6 +107,7 @@ const Basic = () => {
                     setErrors({});
                   }}
                   type="text"
+                  id="name"
                   name="name"
                   className={style.field}
                 />
@@ -127,6 +128,7 @@ const Basic = () => {
                     setErrors({});
                   }}
                   type="tel"
+                  id="phoneNumber"
                   name="phoneNumber"
                   className={style.field}
                 />
@@ -146,6 +148,7 @@ const Basic = () => {
                     handleChange(e);
                     setErrors({});
                   }}
+                  id="email"
                   name="email"
                   className={style.field}
                 />
@@ -184,6 +187,7 @@ const Basic = () => {
                         setErrors({});
                       }}
                       type="text"
+                      id="dogName"
                       name="dogName"
                       className={style.dogName}
                     />
@@ -204,6 +208,7 @@ const Basic = () => {
                         setErrors({});
                       }}
                       type="number"
+                      id="dogAge"
                       name="dogAge"
                       className={style.dogAge}
                     />
@@ -228,6 +233,7 @@ const Basic = () => {
                   className={style.textArea}
                   type="text"
                   as="textarea"
+                  id="message"
                   name="message"
                 />
                 <div className={style.remainingCharacters}>{`${

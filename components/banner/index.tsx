@@ -8,7 +8,7 @@ const Banner = () => (
         Dog Training and <br />
         Behavior Modification
       </h1>
-      <Link href="/services">
+      <Link href="/services" passHref>
         <button className={style.button}>Learn More</button>
       </Link>
     </div>

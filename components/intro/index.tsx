@@ -11,7 +11,7 @@ const Intro = () => (
       to work on basic commands or need more specific help with leash work or
       other behavior modification, Erika is here to help.
     </p>
-    <Link href="/about">
+    <Link href="/about" passHref>
       <button>Erika's Story</button>
     </Link>
   </div>

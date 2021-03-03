@@ -11,34 +11,36 @@ const MobileNavBar = () => {
   return (
     <nav className={style.mobileNavigation}>
       <div className={style.logo}>
-        <Link href="/">
-          <Image
-            src="/images/makeFetchHappen.png"
-            width="1000"
-            height="955"
-            alt="Make Fetch Happen - Navigate to Home Page"
-            priority
-          />
+        <Link href="/" passHref>
+          <a>
+            <Image
+              src="/images/makeFetchHappen.png"
+              width="1000"
+              height="955"
+              alt="Make Fetch Happen - Navigate to Home Page"
+              priority
+            />
+          </a>
         </Link>
       </div>
       {isOpen && (
         <div className={style.mobileNavList}>
-          <Link href="/">
+          <Link href="/" passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               Home
             </a>
           </Link>
-          <Link href="/about">
+          <Link href="/about" passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               About
             </a>
           </Link>
-          <Link href="/services">
+          <Link href="/services" passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               Training Services
             </a>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact" passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               Contact
             </a>

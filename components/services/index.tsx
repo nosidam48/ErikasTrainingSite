@@ -12,7 +12,6 @@ const Services = () => (
           width="177"
           height="134"
           priority
-          className={style.serviceImage}
           alt=""
         />
       </div>
@@ -23,7 +22,7 @@ const Services = () => (
         malesuada sodales magna ac consequat. Suspendisse nec turpis libero. In
         in ultricies.
       </p>
-      <Link href="/contact">
+      <Link href="/contact" passHref>
         <button className={style.button1}>Book Now!</button>
       </Link>
     </div>
@@ -45,19 +44,18 @@ const Services = () => (
         malesuada sodales magna ac consequat. Suspendisse nec turpis libero. In
         in ultricies.
       </p>
-      <Link href="/contact">
+      <Link href="/contact" passHref>
         <button className={style.button2}>Book Now!</button>
       </Link>
     </div>
     <div className={style.serviceItem}>
       <h3>Option Three</h3>
-      <div className={style.serviceImage}>
+      <div className={style.serviceImageLarge}>
         <Image
           src="/images/pawHouse.png"
           width="136"
           height="154"
           priority
-          className={style.serviceImage}
           alt=""
         />
       </div>
@@ -68,7 +66,7 @@ const Services = () => (
         malesuada sodales magna ac consequat. Suspendisse nec turpis libero. In
         in ultricies.
       </p>
-      <Link href="/contact">
+      <Link href="/contact" passHref>
         <button className={style.button3}>Book Now!</button>
       </Link>
     </div>

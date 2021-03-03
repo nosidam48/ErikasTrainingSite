@@ -19,19 +19,21 @@ const NavBar = ({ pathname }: NavBarProps) => {
   return (
     <nav className={style.navigation}>
       <div className={style.logo}>
-        <Link href="/">
-          <Image
-            src="/images/makeFetchHappen.png"
-            width="1000"
-            height="955"
-            alt="Make Fetch Happen Logo - Navigate to Home"
-            priority
-          />
+        <Link href="/" passHref>
+          <a>
+            <Image
+              src="/images/makeFetchHappen.png"
+              width="1000"
+              height="955"
+              alt="Make Fetch Happen Logo - Navigate to Home"
+              priority
+            />
+          </a>
         </Link>
       </div>
       <div className={style.navLinks}>
         {routeItem.map((route, i) => (
-          <Link key={i} href={route.url}>
+          <Link key={i} href={route.url} passHref>
             <a className={route.url === pathname ? style.active : ''}>
               {route.label}
             </a>
