@@ -3,12 +3,12 @@ import Link from 'next/link';
 import style from './style.module.scss';
 
 const trainingTopics = [
-  "Biting",
-  "Potty Training",
-  "Jumping",
-  "Leash Manners",
-  "Crate Training",
-  "And More..."
+  'Biting',
+  'Potty Training',
+  'Jumping',
+  'Leash Manners',
+  'Crate Training',
+  'And More...',
 ];
 
 const Services = () => (
@@ -78,13 +78,13 @@ const Services = () => (
       </p>
       <p>Topics covered include:</p>
       <div className={style.topicList}>
-      {
-        trainingTopics.map(topic => {
-          return <div key={topic}>{topic}</div>
-        })
-      }
+        {trainingTopics.map((topic) => {
+          return <div key={topic}>{topic}</div>;
+        })}
       </div>
-      <strong className={style.puppySession}>Complete Puppy Session: $175</strong>
+      <strong className={style.puppySession}>
+        Complete Puppy Session: $175
+      </strong>
       <Link href="/contact" passHref>
         <button className={style.button3}>Book Now!</button>
       </Link>
