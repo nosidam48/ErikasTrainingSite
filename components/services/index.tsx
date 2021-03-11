@@ -14,7 +14,7 @@ const trainingTopics = [
 const Services = () => (
   <div className={style.services}>
     <div className={style.serviceItem}>
-      <h3>Option One</h3>
+      <h3>Single Session</h3>
       <div className={style.serviceImage}>
         <Image
           src="/images/dogBowl.png"
@@ -37,7 +37,7 @@ const Services = () => (
       </Link>
     </div>
     <div className={style.serviceItem}>
-      <h3>Option Two</h3>
+      <h3>Training Package</h3>
       <div className={style.serviceImage}>
         <Image
           src="/images/dogFace.png"
@@ -60,7 +60,7 @@ const Services = () => (
       </Link>
     </div>
     <div className={style.serviceItem}>
-      <h3>Option Three</h3>
+      <h3>Complete Puppy Session</h3>
       <div className={style.serviceImageLarge}>
         <Image
           src="/images/pawHouse.png"
