@@ -171,9 +171,9 @@ const Basic = () => {
                   name="service"
                   className={style.field}
                 >
-                  <option value="red">Red</option>
-                  <option value="green">Green</option>
-                  <option value="blue">Blue</option>
+                  <option value="Single Session">Single Session</option>
+                  <option value="Training Package">Training Package</option>
+                  <option value="Complete Puppy Package">Complete Puppy Package</option>
                 </Field>
                 <div
                   className={classnames(
