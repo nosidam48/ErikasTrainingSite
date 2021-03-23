@@ -56,7 +56,7 @@ const Basic = () => {
               name: '',
               phoneNumber: '',
               email: '',
-              services: 'red',
+              services: 'Single Session',
               dogName: '',
               dogAge: '',
               message: '',
@@ -75,7 +75,6 @@ const Basic = () => {
                 dog_name: values.dogName,
                 dog_age: values.dogAge,
               };
-              console.log('submitting: ' + templateParams);
 
               emailjs
                 .send(
@@ -219,6 +218,8 @@ const Basic = () => {
                       name="dogAge"
                       className={style.dogAge}
                       aria-label="Dog's age"
+                      min={1}
+                      max={64}
                     />
                     <div
                       className={classnames(
