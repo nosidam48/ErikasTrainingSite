@@ -161,13 +161,13 @@ const Basic = () => {
                 >
                   {errors.email || 'no error'}
                 </div>
-                <label className={style.label} htmlFor="service">
+                <label className={style.label} htmlFor="services">
                   Training Services
                 </label>
                 <Field
-                  id="service"
+                  id="services"
                   as="select"
-                  name="service"
+                  name="services"
                   className={style.field}
                 >
                   <option value="Single Session">Single Session</option>
