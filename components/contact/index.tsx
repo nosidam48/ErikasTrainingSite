@@ -79,10 +79,10 @@ const Basic = () => {
 
               emailjs
                 .send(
-                  'service_u02o6gf',
-                  'template_hiv6vnp',
+                  'service_zwqyg8e',
+                  'template_a2equkq',
                   templateParams,
-                  'user_YdYOZeeM5lttF2mngBm3i'
+                  'user_QZyc7n3lL85kGIUV4gtCy'
                 )
                 .then(
                   function (response) {
