@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Qualifications from '../qualifications';
 import style from './style.module.scss';
 
 const Bio = () => (
@@ -29,6 +30,7 @@ const Bio = () => (
         />
       </div>
     </div>
+    <Qualifications/>
   </div>
 );
 

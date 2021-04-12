@@ -71,7 +71,10 @@
       grid-template-columns: 100%;
     }
     div {
-      margin: 0 5px 12px 0;
+      margin: 0 5px 20px 0;
+      @media (max-width: 600px) {
+        margin: 0 5px 12px 0;
+      }
     }
   }
 
