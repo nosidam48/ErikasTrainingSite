@@ -16,8 +16,13 @@ const Bio = () => (
           Working with Erika, you can expect to be met with relentless
           positivity and practical solutions to common behavioral issues. Erika
           is a puppy expert with years of experience working in puppy
-          socialization studios. She can help with potty training, leash work,
-          and anything else you and your puppy may need.
+          socialization studios. She can help with potty training, recall, and
+          anything else you and your puppy may need. <br />
+          Erika also has extensive experience working with adult dogs. Her
+          one-on-one approach and individualized training plans address your
+          dog's specific needs and give you the tools to modify unwanted
+          behaviors. Erika has worked with hundreds of clients all over Seattle
+          and continues to learn and grow as a trainer every day.
         </p>
       </div>
       <div className={style.bioImage}>
@@ -30,7 +35,7 @@ const Bio = () => (
         />
       </div>
     </div>
-    <Qualifications/>
+    <Qualifications />
   </div>
 );
 
