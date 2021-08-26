@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders about unchanged 1`] = `
+<div
+  className="formContainer"
+>
+  <h1>
+    Let's Make Fetch Happen!
+  </h1>
+  <form
+    action="#"
+    className="form"
+    onReset={[Function]}
+    onSubmit={[Function]}
+  >
+    <label
+      className="label"
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      className="field"
+      id="name"
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      className="error hidden"
+    >
+      no error
+    </div>
+    <label
+      className="label"
+      htmlFor="phoneNumber"
+    >
+      Phone Number
+    </label>
+    <input
+      className="field"
+      id="phoneNumber"
+      name="phoneNumber"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="tel"
+      value=""
+    />
+    <div
+      className="error hidden"
+    >
+      no error
+    </div>
+    <label
+      className="label"
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="field"
+      id="email"
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+    <div
+      className="error hidden"
+    >
+      no error
+    </div>
+    <label
+      className="label"
+      htmlFor="services"
+    >
+      Training Services
+    </label>
+    <select
+      className="field"
+      id="services"
+      name="services"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        selected={true}
+        value=""
+      >
+        Select One...
+      </option>
+      <option
+        value="Single Session"
+      >
+        Single Session
+      </option>
+      <option
+        value="Training Package"
+      >
+        Training Package
+      </option>
+      <option
+        value="Complete Puppy Package"
+      >
+        Complete Puppy Package
+      </option>
+    </select>
+    <div
+      className="error hidden"
+    >
+      no error
+    </div>
+    <div
+      className="dogInfo"
+    >
+      <div
+        className="dogInfoItem"
+      >
+        <label
+          className="label"
+          htmlFor="dogName"
+        >
+          Dog's Name/Age
+        </label>
+        <input
+          className="dogName"
+          id="dogName"
+          name="dogName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="error hidden"
+        >
+          no error
+        </div>
+      </div>
+      <div
+        className="dogInfoItem"
+      >
+        <div
+          className="labelPlaceholder"
+        />
+        <input
+          aria-label="Dog's age"
+          className="dogAge"
+          id="dogAge"
+          max={64}
+          min={1}
+          name="dogAge"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="number"
+          value=""
+        />
+        <div
+          className="error hidden"
+        >
+          no error
+        </div>
+      </div>
+    </div>
+    <label
+      className="label"
+      htmlFor="message"
+    >
+      What do you want to work on?
+    </label>
+    <textarea
+      className="textArea"
+      id="message"
+      name="message"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      className="remainingCharacters"
+    >
+      1000 characters remaining
+    </div>
+    <div
+      className="errorArea hidden"
+    >
+      no error
+    </div>
+    <button
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

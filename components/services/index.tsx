@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import style from './style.module.scss';
 
-const trainingTopics = [
+const trainingTopics: string[] = [
   'Biting',
   'Potty Training',
   'Jumping',
@@ -80,7 +80,7 @@ const Services = () => (
       </p>
       <p>Topics covered include:</p>
       <div className={style.topicList}>
-        {trainingTopics.map((topic) => {
+        {trainingTopics.map((topic: string) => {
           return <div key={topic}>{topic}</div>;
         })}
       </div>

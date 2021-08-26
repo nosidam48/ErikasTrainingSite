@@ -1,5 +1,7 @@
 import style from './style.module.scss';
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => (
   <div className={style.footer}>
     <div className={style.socialLinks}>
@@ -28,7 +30,7 @@ const Footer = () => (
         />
       </a>
     </div>
-    <p>© 2020 Make Fetch Happen</p>
+    <p>{`© ${currentYear} Make Fetch Happen`}</p>
   </div>
 );
 

@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders about unchanged 1`] = `
+Array [
+  <div
+    className="banner"
+  >
+    <div
+      className="imageWrapper"
+    >
+      <div
+        style={
+          Object {
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "left": 0,
+            "margin": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <img
+          alt="Dog at play"
+          decoding="async"
+          sizes="100vw"
+          src="/_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=3840&q=75"
+          srcSet="/_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=640&q=75 640w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=750&q=75 750w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=828&q=75 828w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FdogAtPlay.jpeg&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": "cover",
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="text"
+    >
+      <h1
+        className="headline"
+      >
+        Dog Training and 
+        <br />
+        Behavior Modification
+      </h1>
+      <button
+        className="button"
+        href="/services"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Learn More
+      </button>
+    </div>
+  </div>,
+  <div
+    className="intro"
+  >
+    <h2>
+      “Fetch is never going to happen”
+    </h2>
+    <p>
+      While there are always nay-sayers out there, dog trainer and enthusiast Erika Abrahamson uses positive reinforcement training techniques that modify unwanted behaviors in a kind and humane way. Whether you want to work on basic commands or need more specific help with leash work or other behavior modification, Erika is here to make fetch happen for you and your dog.
+    </p>
+    <button
+      href="/about"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Erika's Story
+    </button>
+  </div>,
+  <div
+    className="qualifications"
+  >
+    <div
+      className="qualList"
+    >
+      <div
+        className="imageWrapper"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjkxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt=""
+              decoding="async"
+              src="/images/NWDog.png"
+              srcSet="/_next/image?url=%2Fimages%2FNWDog.png&w=128&q=75 1x, /_next/image?url=%2Fimages%2FNWDog.png&w=256&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt=""
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+      <p>
+        North West School of Canine Studies Graduate
+      </p>
+    </div>
+    <div
+      className="qualList"
+    >
+      <div
+        className="imageWrapper"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjcyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt=""
+              decoding="async"
+              src="/images/puppyworks.png"
+              srcSet="/_next/image?url=%2Fimages%2Fpuppyworks.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpuppyworks.png&w=384&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt=""
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+      <p>
+        Trainer and Instructor at Seattle Puppyworks
+      </p>
+    </div>
+    <div
+      className="qualList"
+    >
+      <div
+        className="imageWrapper"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjM1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt=""
+              decoding="async"
+              src="/images/paws4training.png"
+              srcSet="/_next/image?url=%2Fimages%2Fpaws4training.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpaws4training.png&w=640&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt=""
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+      <p>
+        Trainer and Instructor at Paws 4 Training
+      </p>
+    </div>
+  </div>,
+]
+`;

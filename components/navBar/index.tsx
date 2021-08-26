@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import style from './style.module.scss';
 
-interface NavBarProps {
+export interface NavBarProps {
   pathname: string;
 }
 
@@ -14,8 +14,6 @@ const routeItem = [
 ];
 
 const NavBar = ({ pathname }: NavBarProps) => {
-  console.log(pathname);
-
   return (
     <nav className={style.navigation}>
       <div className={style.logo}>
