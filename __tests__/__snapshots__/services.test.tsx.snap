@@ -37,7 +37,6 @@ exports[`renders about unchanged 1`] = `
           <img
             alt=""
             aria-hidden={true}
-            role="presentation"
             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc3IiBoZWlnaHQ9IjEzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
             style={
               Object {
@@ -52,6 +51,7 @@ exports[`renders about unchanged 1`] = `
         </div>
         <img
           alt=""
+          data-nimg={true}
           decoding="async"
           src="/_next/image?url=%2Fimages%2FdogBowl.png&w=384&q=75"
           srcSet="/_next/image?url=%2Fimages%2FdogBowl.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2FdogBowl.png&w=384&q=75 2x"
@@ -135,7 +135,6 @@ exports[`renders about unchanged 1`] = `
           <img
             alt=""
             aria-hidden={true}
-            role="presentation"
             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1IiBoZWlnaHQ9IjE0NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
             style={
               Object {
@@ -150,6 +149,7 @@ exports[`renders about unchanged 1`] = `
         </div>
         <img
           alt=""
+          data-nimg={true}
           decoding="async"
           src="/_next/image?url=%2Fimages%2FdogFace.png&w=384&q=75"
           srcSet="/_next/image?url=%2Fimages%2FdogFace.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2FdogFace.png&w=384&q=75 2x"
@@ -228,7 +228,6 @@ exports[`renders about unchanged 1`] = `
           <img
             alt=""
             aria-hidden={true}
-            role="presentation"
             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM2IiBoZWlnaHQ9IjE1NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
             style={
               Object {
@@ -243,6 +242,7 @@ exports[`renders about unchanged 1`] = `
         </div>
         <img
           alt=""
+          data-nimg={true}
           decoding="async"
           src="/_next/image?url=%2Fimages%2FpawHouse.png&w=384&q=75"
           srcSet="/_next/image?url=%2Fimages%2FpawHouse.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2FpawHouse.png&w=384&q=75 2x"

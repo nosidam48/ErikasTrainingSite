@@ -48,7 +48,6 @@ exports[`renders about unchanged 1`] = `
           <img
             alt=""
             aria-hidden={true}
-            role="presentation"
             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDI2IiBoZWlnaHQ9IjQyNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
             style={
               Object {
@@ -63,6 +62,7 @@ exports[`renders about unchanged 1`] = `
         </div>
         <img
           alt="Erika with her dog Garbanzo"
+          data-nimg={true}
           decoding="async"
           src="/_next/image?url=%2Fimages%2Ferika-bonzo.jpg&w=1080&q=75"
           srcSet="/_next/image?url=%2Fimages%2Ferika-bonzo.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Ferika-bonzo.jpg&w=1080&q=75 2x"
@@ -125,7 +125,6 @@ exports[`renders about unchanged 1`] = `
             <img
               alt=""
               aria-hidden={true}
-              role="presentation"
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjkxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
               style={
                 Object {
@@ -141,8 +140,9 @@ exports[`renders about unchanged 1`] = `
           <noscript>
             <img
               alt=""
+              data-nimg={true}
               decoding="async"
-              src="/images/NWDog.png"
+              src="/_next/image?url=%2Fimages%2FNWDog.png&w=256&q=75"
               srcSet="/_next/image?url=%2Fimages%2FNWDog.png&w=128&q=75 1x, /_next/image?url=%2Fimages%2FNWDog.png&w=256&q=75 2x"
               style={
                 Object {
@@ -170,6 +170,7 @@ exports[`renders about unchanged 1`] = `
           </noscript>
           <img
             alt=""
+            data-nimg={true}
             decoding="async"
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             style={
@@ -231,7 +232,6 @@ exports[`renders about unchanged 1`] = `
             <img
               alt=""
               aria-hidden={true}
-              role="presentation"
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjcyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
               style={
                 Object {
@@ -247,8 +247,9 @@ exports[`renders about unchanged 1`] = `
           <noscript>
             <img
               alt=""
+              data-nimg={true}
               decoding="async"
-              src="/images/puppyworks.png"
+              src="/_next/image?url=%2Fimages%2Fpuppyworks.png&w=384&q=75"
               srcSet="/_next/image?url=%2Fimages%2Fpuppyworks.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpuppyworks.png&w=384&q=75 2x"
               style={
                 Object {
@@ -276,6 +277,7 @@ exports[`renders about unchanged 1`] = `
           </noscript>
           <img
             alt=""
+            data-nimg={true}
             decoding="async"
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             style={
@@ -337,7 +339,6 @@ exports[`renders about unchanged 1`] = `
             <img
               alt=""
               aria-hidden={true}
-              role="presentation"
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjM1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
               style={
                 Object {
@@ -353,8 +354,9 @@ exports[`renders about unchanged 1`] = `
           <noscript>
             <img
               alt=""
+              data-nimg={true}
               decoding="async"
-              src="/images/paws4training.png"
+              src="/_next/image?url=%2Fimages%2Fpaws4training.png&w=640&q=75"
               srcSet="/_next/image?url=%2Fimages%2Fpaws4training.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpaws4training.png&w=640&q=75 2x"
               style={
                 Object {
@@ -382,6 +384,7 @@ exports[`renders about unchanged 1`] = `
           </noscript>
           <img
             alt=""
+            data-nimg={true}
             decoding="async"
             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             style={

@@ -1,23 +1,11 @@
-const withPWA = require('next-pwa')
-// const securityHeaders = [{
-//   key: 'Content-Security-Policy',
-//   value: "default-src 'self'"
-// }]
+const withPWA = require('next-pwa');
+
 module.exports = withPWA({
-  // async headers() {
-  //   return [
-  //     {
-  //       // Apply these headers to all routes in your application.
-  //       source: '/(.*)',
-  //       headers: securityHeaders,
-  //     },
-  //   ]
-  // },
   pwa: {
-    dest: 'public'
+    dest: 'public',
   },
   i18n: {
     locales: ['en-US'],
-    defaultLocale: 'en-US'
-  }
-})
+    defaultLocale: 'en-US',
+  },
+});
