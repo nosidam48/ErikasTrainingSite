@@ -1,5 +1,5 @@
-import Home from '../pages/home'
+import Home from '../pages/home';
 
- const Index = () => (<Home />)
+const Index = () => <Home />;
 
 export default Index;

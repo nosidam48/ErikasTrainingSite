@@ -19,8 +19,8 @@ const SignupSchema = Yup.object().shape({
     .email('Please enter a valid email')
     .required('Please enter your email address'),
   services: Yup.string()
-    .required("Select a service")
-    .min(10, "Select a service"),
+    .required('Select a service')
+    .min(10, 'Select a service'),
   dogName: Yup.string()
     .max(100, 'Name too long')
     .required("Please enter your dog's name"),
@@ -172,10 +172,14 @@ const Basic = () => {
                   name="services"
                   className={style.field}
                 >
-                  <option value="" selected >Select One...</option>
+                  <option value="" selected>
+                    Select One...
+                  </option>
                   <option value="Single Session">Single Session</option>
                   <option value="Training Package">Training Package</option>
-                  <option value="Complete Puppy Package">Complete Puppy Package</option>
+                  <option value="Complete Puppy Package">
+                    Complete Puppy Package
+                  </option>
                 </Field>
                 <div
                   className={classnames(
