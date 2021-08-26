@@ -24,72 +24,13 @@ exports[`renders about unchanged 1`] = `
     <div
       className="bioImage"
     >
-      <div
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "margin": 0,
-            "maxWidth": "100%",
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "block",
-              "maxWidth": "100%",
-            }
-          }
-        >
-          <img
-            alt=""
-            aria-hidden={true}
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDI2IiBoZWlnaHQ9IjQyNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-            style={
-              Object {
-                "border": "none",
-                "display": "block",
-                "margin": 0,
-                "maxWidth": "100%",
-                "padding": 0,
-              }
-            }
-          />
-        </div>
-        <img
-          alt="Erika with her dog Garbanzo"
-          data-nimg={true}
-          decoding="async"
-          src="/_next/image?url=%2Fimages%2Ferika-bonzo.jpg&w=1080&q=75"
-          srcSet="/_next/image?url=%2Fimages%2Ferika-bonzo.jpg&w=640&q=75 1x, /_next/image?url=%2Fimages%2Ferika-bonzo.jpg&w=1080&q=75 2x"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
-      </div>
+      <img
+        alt="Erika with her dog Garbanzo"
+        height="426"
+        priority={true}
+        src="/images/erika-bonzo.jpg"
+        width="426"
+      />
     </div>
   </div>
   <div
@@ -101,102 +42,12 @@ exports[`renders about unchanged 1`] = `
       <div
         className="imageWrapper"
       >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "margin": 0,
-              "maxWidth": "100%",
-              "overflow": "hidden",
-              "position": "relative",
-            }
-          }
-        >
-          <div
-            style={
-              Object {
-                "boxSizing": "border-box",
-                "display": "block",
-                "maxWidth": "100%",
-              }
-            }
-          >
-            <img
-              alt=""
-              aria-hidden={true}
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjkxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-              style={
-                Object {
-                  "border": "none",
-                  "display": "block",
-                  "margin": 0,
-                  "maxWidth": "100%",
-                  "padding": 0,
-                }
-              }
-            />
-          </div>
-          <noscript>
-            <img
-              alt=""
-              data-nimg={true}
-              decoding="async"
-              src="/_next/image?url=%2Fimages%2FNWDog.png&w=256&q=75"
-              srcSet="/_next/image?url=%2Fimages%2FNWDog.png&w=128&q=75 1x, /_next/image?url=%2Fimages%2FNWDog.png&w=256&q=75 2x"
-              style={
-                Object {
-                  "border": "none",
-                  "bottom": 0,
-                  "boxSizing": "border-box",
-                  "display": "block",
-                  "height": 0,
-                  "left": 0,
-                  "margin": "auto",
-                  "maxHeight": "100%",
-                  "maxWidth": "100%",
-                  "minHeight": "100%",
-                  "minWidth": "100%",
-                  "objectFit": undefined,
-                  "objectPosition": undefined,
-                  "padding": 0,
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                  "width": 0,
-                }
-              }
-            />
-          </noscript>
-          <img
-            alt=""
-            data-nimg={true}
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-        </div>
+        <img
+          alt=""
+          height="91"
+          src="/images/NWDog.png"
+          width="100"
+        />
       </div>
       <p>
         North West School of Canine Studies Graduate
@@ -208,102 +59,12 @@ exports[`renders about unchanged 1`] = `
       <div
         className="imageWrapper"
       >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "margin": 0,
-              "maxWidth": "100%",
-              "overflow": "hidden",
-              "position": "relative",
-            }
-          }
-        >
-          <div
-            style={
-              Object {
-                "boxSizing": "border-box",
-                "display": "block",
-                "maxWidth": "100%",
-              }
-            }
-          >
-            <img
-              alt=""
-              aria-hidden={true}
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjcyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-              style={
-                Object {
-                  "border": "none",
-                  "display": "block",
-                  "margin": 0,
-                  "maxWidth": "100%",
-                  "padding": 0,
-                }
-              }
-            />
-          </div>
-          <noscript>
-            <img
-              alt=""
-              data-nimg={true}
-              decoding="async"
-              src="/_next/image?url=%2Fimages%2Fpuppyworks.png&w=384&q=75"
-              srcSet="/_next/image?url=%2Fimages%2Fpuppyworks.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpuppyworks.png&w=384&q=75 2x"
-              style={
-                Object {
-                  "border": "none",
-                  "bottom": 0,
-                  "boxSizing": "border-box",
-                  "display": "block",
-                  "height": 0,
-                  "left": 0,
-                  "margin": "auto",
-                  "maxHeight": "100%",
-                  "maxWidth": "100%",
-                  "minHeight": "100%",
-                  "minWidth": "100%",
-                  "objectFit": undefined,
-                  "objectPosition": undefined,
-                  "padding": 0,
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                  "width": 0,
-                }
-              }
-            />
-          </noscript>
-          <img
-            alt=""
-            data-nimg={true}
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-        </div>
+        <img
+          alt=""
+          height="72"
+          src="/images/puppyworks.png"
+          width="180"
+        />
       </div>
       <p>
         Trainer and Instructor at Seattle Puppyworks
@@ -315,102 +76,12 @@ exports[`renders about unchanged 1`] = `
       <div
         className="imageWrapper"
       >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "margin": 0,
-              "maxWidth": "100%",
-              "overflow": "hidden",
-              "position": "relative",
-            }
-          }
-        >
-          <div
-            style={
-              Object {
-                "boxSizing": "border-box",
-                "display": "block",
-                "maxWidth": "100%",
-              }
-            }
-          >
-            <img
-              alt=""
-              aria-hidden={true}
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjM1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-              style={
-                Object {
-                  "border": "none",
-                  "display": "block",
-                  "margin": 0,
-                  "maxWidth": "100%",
-                  "padding": 0,
-                }
-              }
-            />
-          </div>
-          <noscript>
-            <img
-              alt=""
-              data-nimg={true}
-              decoding="async"
-              src="/_next/image?url=%2Fimages%2Fpaws4training.png&w=640&q=75"
-              srcSet="/_next/image?url=%2Fimages%2Fpaws4training.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fpaws4training.png&w=640&q=75 2x"
-              style={
-                Object {
-                  "border": "none",
-                  "bottom": 0,
-                  "boxSizing": "border-box",
-                  "display": "block",
-                  "height": 0,
-                  "left": 0,
-                  "margin": "auto",
-                  "maxHeight": "100%",
-                  "maxWidth": "100%",
-                  "minHeight": "100%",
-                  "minWidth": "100%",
-                  "objectFit": undefined,
-                  "objectPosition": undefined,
-                  "padding": 0,
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                  "width": 0,
-                }
-              }
-            />
-          </noscript>
-          <img
-            alt=""
-            data-nimg={true}
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-        </div>
+        <img
+          alt=""
+          height="35"
+          src="/images/paws4training.png"
+          width="200"
+        />
       </div>
       <p>
         Trainer and Instructor at Paws 4 Training

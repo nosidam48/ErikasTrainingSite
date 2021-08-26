@@ -13,72 +13,13 @@ exports[`renders about unchanged 1`] = `
     <div
       className="serviceImage"
     >
-      <div
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "margin": 0,
-            "maxWidth": "100%",
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "block",
-              "maxWidth": "100%",
-            }
-          }
-        >
-          <img
-            alt=""
-            aria-hidden={true}
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc3IiBoZWlnaHQ9IjEzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-            style={
-              Object {
-                "border": "none",
-                "display": "block",
-                "margin": 0,
-                "maxWidth": "100%",
-                "padding": 0,
-              }
-            }
-          />
-        </div>
-        <img
-          alt=""
-          data-nimg={true}
-          decoding="async"
-          src="/_next/image?url=%2Fimages%2FdogBowl.png&w=384&q=75"
-          srcSet="/_next/image?url=%2Fimages%2FdogBowl.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2FdogBowl.png&w=384&q=75 2x"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
-      </div>
+      <img
+        alt=""
+        height="134"
+        priority={true}
+        src="/images/dogBowl.png"
+        width="177"
+      />
     </div>
     <p
       className="sessionText"
@@ -96,8 +37,6 @@ exports[`renders about unchanged 1`] = `
     <button
       className="button1"
       href="/contact"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
     >
       Contact Erika
     </button>
@@ -111,72 +50,13 @@ exports[`renders about unchanged 1`] = `
     <div
       className="serviceImage"
     >
-      <div
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "margin": 0,
-            "maxWidth": "100%",
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "block",
-              "maxWidth": "100%",
-            }
-          }
-        >
-          <img
-            alt=""
-            aria-hidden={true}
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1IiBoZWlnaHQ9IjE0NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-            style={
-              Object {
-                "border": "none",
-                "display": "block",
-                "margin": 0,
-                "maxWidth": "100%",
-                "padding": 0,
-              }
-            }
-          />
-        </div>
-        <img
-          alt=""
-          data-nimg={true}
-          decoding="async"
-          src="/_next/image?url=%2Fimages%2FdogFace.png&w=384&q=75"
-          srcSet="/_next/image?url=%2Fimages%2FdogFace.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2FdogFace.png&w=384&q=75 2x"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
-      </div>
+      <img
+        alt=""
+        height="145"
+        priority={true}
+        src="/images/dogFace.png"
+        width="175"
+      />
     </div>
     <p
       className="packageText"
@@ -189,8 +69,6 @@ exports[`renders about unchanged 1`] = `
     <button
       className="button2"
       href="/contact"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
     >
       Contact Erika
     </button>
@@ -204,72 +82,13 @@ exports[`renders about unchanged 1`] = `
     <div
       className="serviceImageLarge"
     >
-      <div
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "margin": 0,
-            "maxWidth": "100%",
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "boxSizing": "border-box",
-              "display": "block",
-              "maxWidth": "100%",
-            }
-          }
-        >
-          <img
-            alt=""
-            aria-hidden={true}
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM2IiBoZWlnaHQ9IjE1NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-            style={
-              Object {
-                "border": "none",
-                "display": "block",
-                "margin": 0,
-                "maxWidth": "100%",
-                "padding": 0,
-              }
-            }
-          />
-        </div>
-        <img
-          alt=""
-          data-nimg={true}
-          decoding="async"
-          src="/_next/image?url=%2Fimages%2FpawHouse.png&w=384&q=75"
-          srcSet="/_next/image?url=%2Fimages%2FpawHouse.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2FpawHouse.png&w=384&q=75 2x"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
-      </div>
+      <img
+        alt=""
+        height="154"
+        priority={true}
+        src="/images/pawHouse.png"
+        width="136"
+      />
     </div>
     <p>
       The Complete Puppy Session includes a two-hour crash course on all things puppy. This option is great for new puppy parents, especially those with busy schedules. Get all of your questions answered and learn new techniques to get your puppy started off on the right paw!
@@ -307,8 +126,6 @@ exports[`renders about unchanged 1`] = `
     <button
       className="button3"
       href="/contact"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
     >
       Contact Erika
     </button>
