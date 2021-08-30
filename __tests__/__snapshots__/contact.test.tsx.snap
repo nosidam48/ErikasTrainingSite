@@ -84,7 +84,7 @@ exports[`renders about unchanged 1`] = `
       name="services"
       onBlur={[Function]}
       onChange={[Function]}
-      value=""
+      value="Single Session"
     >
       <option
         selected={true}

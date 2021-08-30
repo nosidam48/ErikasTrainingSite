@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Basic from '../../components/contact';
+import ContactForm from '../../components/contact';
 
 const Contact = () => (
   <>
@@ -9,7 +9,7 @@ const Contact = () => (
         content="Ready to book a dog training appointment with Erika in the greater Seattle area? Contact Erika for more information and possible appointment times."
       ></meta>
     </Head>
-    <Basic />
+    <ContactForm />
   </>
 );
 

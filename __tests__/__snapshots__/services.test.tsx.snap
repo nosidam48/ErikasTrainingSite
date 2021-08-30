@@ -36,7 +36,7 @@ exports[`renders about unchanged 1`] = `
     </strong>
     <button
       className="button1"
-      href="/contact"
+      href="/contact?service=single"
     >
       Contact Erika
     </button>
@@ -68,7 +68,7 @@ exports[`renders about unchanged 1`] = `
     </strong>
     <button
       className="button2"
-      href="/contact"
+      href="/contact?service=training"
     >
       Contact Erika
     </button>
@@ -125,7 +125,7 @@ exports[`renders about unchanged 1`] = `
     </strong>
     <button
       className="button3"
-      href="/contact"
+      href="/contact?service=puppy"
     >
       Contact Erika
     </button>

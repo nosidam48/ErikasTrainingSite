@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Contact from '../pages/contact/index';
+import Contact from '../pages/contact';
 
 jest.mock('next/link', () => ({
   __esModule: true,
@@ -14,6 +14,14 @@ jest.mock('next/image', () => ({
   default: (props: any) => {
     return <img {...props} />;
   },
+}));
+
+jest.mock('next/router', () => ({
+  useRouter: jest.fn().mockImplementation(() => ({
+    query: {
+      service: 'single',
+    },
+  })),
 }));
 
 it('renders about unchanged', () => {

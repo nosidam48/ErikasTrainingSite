@@ -25,6 +25,7 @@ const NavBar = ({ pathname }: NavBarProps) => {
               height="955"
               alt="Make Fetch Happen Logo - Navigate to Home"
               priority
+              data-cy="desktop_logo"
             />
           </a>
         </Link>

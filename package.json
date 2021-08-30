@@ -7,11 +7,14 @@
     "test": "jest",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
-    "chromatic": "npx chromatic"
+    "chromatic": "npx chromatic",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "@types/node-sass": "^4.11.1",
     "classnames": "^2.2.6",
+    "cypress": "^8.3.1",
     "emailjs": "^3.4.0",
     "formik": "^2.2.6",
     "next": "^11.1.0",

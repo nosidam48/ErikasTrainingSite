@@ -5,6 +5,7 @@ import { Field, Form, Formik } from 'formik';
 import classnames from 'classnames';
 import style from './style.module.scss';
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const SignupSchema = Yup.object().shape({
   name: Yup.string()
@@ -33,8 +34,23 @@ const SignupSchema = Yup.object().shape({
     .required('Required'),
 });
 
-const Basic = () => {
+const ContactForm = () => {
   const [success, setSuccess] = useState(false);
+  const router = useRouter();
+  
+  const defaultService = (): string => {
+    if (router.query) {
+      switch (router.query.service) {
+        case 'single':
+          return "Single Session";
+        case 'training':
+          return "Training Package";
+        case 'puppy':
+          return "Complete Puppy Package";
+      }
+    }
+    return '';
+  }
   return (
     <>
       {success ? (
@@ -58,7 +74,7 @@ const Basic = () => {
               name: '',
               phoneNumber: '',
               email: '',
-              services: '',
+              services: defaultService(),
               dogName: '',
               dogAge: '',
               message: '',
@@ -275,4 +291,4 @@ const Basic = () => {
   );
 };
 
-export default Basic;
+export default ContactForm;

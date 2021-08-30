@@ -33,7 +33,7 @@ const Services = () => (
       </p>
       <strong className={style.sessionPrice}>First Session: $100</strong>
       <strong>Follow ups: $90</strong>
-      <Link href="/contact" passHref>
+      <Link href="/contact?service=single" passHref>
         <button className={style.button1}>Contact Erika</button>
       </Link>
     </div>
@@ -57,7 +57,7 @@ const Services = () => (
         session to keep you and your dog on track!
       </p>
       <strong>Three Pack: $240</strong>
-      <Link href="/contact" passHref>
+      <Link href="/contact?service=training" passHref>
         <button className={style.button2}>Contact Erika</button>
       </Link>
     </div>
@@ -87,7 +87,7 @@ const Services = () => (
       <strong className={style.puppySession}>
         Complete Puppy Session: $175
       </strong>
-      <Link href="/contact" passHref>
+      <Link href="/contact?service=puppy" passHref>
         <button className={style.button3}>Contact Erika</button>
       </Link>
     </div>

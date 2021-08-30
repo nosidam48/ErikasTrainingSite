@@ -1,0 +1,40 @@
+.banner {
+  display: flex;
+  position: relative;
+  justify-content: left;
+  align-items: center;
+  height: 633px;
+  text-align: left;
+  font-weight: bold;
+
+  .imageWrapper {
+    z-index: -1;
+  }
+  .text {
+    color: #fdf6ee;
+    margin-left: 100px;
+    @media (max-width: 650px) {
+      margin: 0 20px;
+    }
+  }
+
+  .headline {
+    font-size: 48px;
+    line-height: 64px;
+    @media (max-width: 650px) {
+      font-size: 30px;
+    }
+  }
+
+  .button {
+    width: 138px;
+    height: 48px;
+    background-color: #ec6562;
+    color: #fdf6ee;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

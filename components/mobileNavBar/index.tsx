@@ -19,6 +19,7 @@ const MobileNavBar = () => {
               height="955"
               alt="Make Fetch Happen - Navigate to Home Page"
               priority
+              data-cy="mobile_logo"
             />
           </a>
         </Link>
@@ -50,6 +51,7 @@ const MobileNavBar = () => {
       <div
         className={classnames(style.container, isOpen && style.open)}
         onClick={() => setIsOpen(!isOpen)}
+        data-cy="burger_menu"
       >
         <div className={style.bar1}></div>
         <div className={style.bar2}></div>
