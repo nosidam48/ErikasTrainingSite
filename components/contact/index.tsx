@@ -39,7 +39,7 @@ const ContactForm = () => {
   const router = useRouter();
   
   const defaultService = (): string => {
-    if (router.query) {
+    if (router?.query) {
       switch (router.query.service) {
         case 'single':
           return "Single Session";
