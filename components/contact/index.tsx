@@ -9,9 +9,9 @@ import { useRouter } from 'next/router';
 
 const SignupSchema = Yup.object().shape({
   name: Yup.string()
-    .min(2, 'Please enter at least 3 characters')
+    .min(2, 'Please enter at least 2 characters')
     .max(70, 'Character limit exceeded!')
-    .required('Required'),
+    .required('Please enter your name'),
   phoneNumber: Yup.string()
     .min(7, 'Please enter a valid phone number')
     .max(25, 'Phone number too long')
@@ -21,7 +21,7 @@ const SignupSchema = Yup.object().shape({
     .required('Please enter your email address'),
   services: Yup.string()
     .required('Select a service')
-    .min(10, 'Select a service'),
+    .matches(/^(Single Session|Training Package|Complete Puppy Package)$/, 'Select a service fool!'),
   dogName: Yup.string()
     .max(100, 'Name too long')
     .required("Please enter your dog's name"),
@@ -31,7 +31,7 @@ const SignupSchema = Yup.object().shape({
   message: Yup.string()
     .min(6, 'Please enter a longer message')
     .max(1000, 'Max characters exceeded')
-    .required('Required'),
+    .required('Please write a message'),
 });
 
 const ContactForm = () => {
@@ -93,7 +93,6 @@ const ContactForm = () => {
                 dog_name: values.dogName,
                 dog_age: values.dogAge,
               };
-
               emailjs
                 .send(
                   'service_zwqyg8e',
@@ -103,7 +102,6 @@ const ContactForm = () => {
                 )
                 .then(
                   function (response) {
-                    console.log('SUCCESS!', response.status, response.text);
                     setSuccess(true);
                   },
                   function (error) {
@@ -187,6 +185,10 @@ const ContactForm = () => {
                   as="select"
                   name="services"
                   className={style.field}
+                  onChange={(e) => {
+                    handleChange(e);
+                    setErrors({});
+                  }}
                 >
                   <option value="" selected>
                     Select One...

@@ -4,7 +4,8 @@ const currentYear = new Date().getFullYear();
 
 const Footer = () => (
   <div className={style.footer}>
-    <div className={style.socialLinks}>
+    {/* TODO: reimplement social links when sites are live */}
+    {/* <div className={style.socialLinks}>
       <a
         href="https://www.facebook.com/erika"
         target="_blank"
@@ -29,7 +30,7 @@ const Footer = () => (
           alt="Visit Make Fetch Happen on Instagram"
         />
       </a>
-    </div>
+    </div> */}
     <p>{`© ${currentYear} Make Fetch Happen`}</p>
   </div>
 );

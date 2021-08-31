@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Paths } from '../../utils/paths';
 import style from './style.module.scss';
 
 const trainingTopics: string[] = [
@@ -33,7 +34,7 @@ const Services = () => (
       </p>
       <strong className={style.sessionPrice}>First Session: $100</strong>
       <strong>Follow ups: $90</strong>
-      <Link href="/contact?service=single" passHref>
+      <Link href={Paths.ContactSingle} passHref>
         <button className={style.button1}>Contact Erika</button>
       </Link>
     </div>
@@ -57,7 +58,7 @@ const Services = () => (
         session to keep you and your dog on track!
       </p>
       <strong>Three Pack: $240</strong>
-      <Link href="/contact?service=training" passHref>
+      <Link href={Paths.ContactTraining} passHref>
         <button className={style.button2}>Contact Erika</button>
       </Link>
     </div>
@@ -87,7 +88,7 @@ const Services = () => (
       <strong className={style.puppySession}>
         Complete Puppy Session: $175
       </strong>
-      <Link href="/contact?service=puppy" passHref>
+      <Link href={Paths.ContactPuppy} passHref>
         <button className={style.button3}>Contact Erika</button>
       </Link>
     </div>

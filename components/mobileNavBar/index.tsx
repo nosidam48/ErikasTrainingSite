@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import classnames from 'classnames';
 import style from './style.module.scss';
+import { Paths } from '../../utils/paths';
 
 const MobileNavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const MobileNavBar = () => {
   return (
     <nav className={style.mobileNavigation}>
       <div className={style.logo}>
-        <Link href="/" passHref>
+        <Link href={Paths.Home} passHref>
           <a>
             <Image
               src="/images/makeFetchHappen.png"
@@ -26,22 +27,22 @@ const MobileNavBar = () => {
       </div>
       {isOpen && (
         <div className={style.mobileNavList}>
-          <Link href="/" passHref>
+          <Link href={Paths.Home} passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               Home
             </a>
           </Link>
-          <Link href="/about" passHref>
+          <Link href={Paths.About} passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               About
             </a>
           </Link>
-          <Link href="/services" passHref>
+          <Link href={Paths.Services} passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               Training Services
             </a>
           </Link>
-          <Link href="/contact" passHref>
+          <Link href={Paths.Contact} passHref>
             <a onClick={toggleOpen} className={style.mobileNavItem}>
               Contact
             </a>

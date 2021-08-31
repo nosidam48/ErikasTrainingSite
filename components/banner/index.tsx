@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Paths } from '../../utils/paths';
 import style from './style.module.scss';
 
 const Banner = () => (
@@ -18,7 +19,7 @@ const Banner = () => (
         Dog Training and <br />
         Behavior Modification
       </h1>
-      <Link href="/services" passHref>
+      <Link href={Paths.Services} passHref>
         <button className={style.button}>Learn More</button>
       </Link>
     </div>

@@ -1,27 +1,27 @@
-import * as React from 'react';
+import { Paths } from '../../utils/paths';
 
-export interface PagesWithPaths {
+interface PagesWithPaths {
   text: string;
   path: string;
 }
 
 const pages: PagesWithPaths[] = [
-  { text: 'About', path: '/about' },
-  { text: 'Home', path: '/' },
-  { text: 'Contact', path: '/contact' },
-  { text: 'Training Services', path: '/services' },
+  { text: 'About', path: Paths.About },
+  { text: 'Home', path: Paths.Home },
+  { text: 'Contact', path: Paths.Contact },
+  { text: 'Training Services', path: Paths.Services },
 ];
 
 const buttons: PagesWithPaths[] = [
-  { text: 'Learn More', path: '/services' },
-  { text: "Erika's Story", path: '/about' },
+  { text: 'Learn More', path: Paths.Services },
+  { text: "Erika's Story", path: Paths.About },
 ];
 
 const queries: string[] = ['single', 'training', 'puppy']
 
 describe('Navigation tests', () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit(Paths.Home);
   });
   it('navigates to all pages from the mobile navBar', () => {
     pages.forEach((page) => {
@@ -30,7 +30,7 @@ describe('Navigation tests', () => {
       cy.location('pathname').should('eq', page.path);
     });
     cy.get('[data-cy=mobile_logo]').click();
-    cy.location('pathname').should('eq', '/');
+    cy.location('pathname').should('eq', Paths.Home);
   });
 
   it('navigates to all pages from the desktop navBar', () => {
@@ -40,7 +40,7 @@ describe('Navigation tests', () => {
       cy.location('pathname').should('eq', page.path);
     });
     cy.get('[data-cy=desktop_logo]').click();
-    cy.location('pathname').should('eq', '/');
+    cy.location('pathname').should('eq', Paths.Home);
   });
 
   it('navigates using the homepage buttons', () => {
@@ -48,22 +48,22 @@ describe('Navigation tests', () => {
       cy.contains(button.text).click();
       cy.location('pathname').should('eq', button.path);
       cy.get('[data-cy=mobile_logo]').click();
-      cy.location('pathname').should('eq', '/');
+      cy.location('pathname').should('eq', Paths.Home);
     });
   });
 
   it('navigates using the services page buttons', () => {
-    cy.visit('/services');
+    cy.visit(Paths.Services);
     for (let i = 0; i < 3; i++) {
       cy.get('button').then((buttons) => {
         const button = buttons[i];
         button.click();
         cy.location().should((loc) => {
           expect(loc.search).to.eq(`?service=${queries[i]}`)
-          expect(loc.pathname).to.eq('/contact')
+          expect(loc.pathname).to.eq(Paths.Contact)
         })
         if (i < 2) {
-          cy.visit('/services');
+          cy.visit(Paths.Services);
         }
       });
     }

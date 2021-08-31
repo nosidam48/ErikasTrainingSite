@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Paths } from '../../utils/paths';
 import style from './style.module.scss';
 
 export interface NavBarProps {
@@ -7,17 +8,17 @@ export interface NavBarProps {
 }
 
 const routeItem = [
-  { url: '/', label: 'Home' },
-  { url: '/about', label: 'About' },
-  { url: '/services', label: 'Training Services' },
-  { url: '/contact', label: 'Contact' },
+  { url: Paths.Home, label: 'Home' },
+  { url: Paths.About, label: 'About' },
+  { url: Paths.Services, label: 'Training Services' },
+  { url: Paths.Contact, label: 'Contact' },
 ];
 
 const NavBar = ({ pathname }: NavBarProps) => {
   return (
     <nav className={style.navigation}>
       <div className={style.logo}>
-        <Link href="/" passHref>
+        <Link href={Paths.Home} passHref>
           <a>
             <Image
               src="/images/makeFetchHappen.png"

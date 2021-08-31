@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Paths } from '../utils/paths';
 import style from './style.module.scss';
 
 const Custom404 = () => (
@@ -18,7 +19,7 @@ const Custom404 = () => (
         Oops! <br />
         Page Not Found
       </h1>
-      <Link href="/" passHref>
+      <Link href={Paths.Home} passHref>
         <button className={style.button}>Back to Home</button>
       </Link>
     </div>

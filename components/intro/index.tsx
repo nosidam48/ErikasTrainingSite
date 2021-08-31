@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Paths } from '../../utils/paths';
 import style from './style.module.scss';
 
 const Intro = () => (
@@ -12,7 +13,7 @@ const Intro = () => (
       behavior modification, Erika is here to make fetch happen for you and your
       dog.
     </p>
-    <Link href="/about" passHref>
+    <Link href={Paths.About} passHref>
       <button>Erika's Story</button>
     </Link>
   </div>

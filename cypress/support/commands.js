@@ -10,7 +10,21 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('submitForm', () => {
+  cy.get('button[type="submit"]').should('be.visible').click();
+});
+
+Cypress.Commands.add('containsAndVisible', (string) => {
+  cy.contains(string).should('be.visible');
+});
+
+Cypress.Commands.add('containsAndNotExist', (string) => {
+  cy.contains(string).should('not.exist');
+});
+
+Cypress.Commands.add('getVisibleAndType', (string, value) => {
+  cy.get(string).should('be.visible').type(value);
+});
 //
 //
 // -- This is a child command --
